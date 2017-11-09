@@ -33,9 +33,11 @@ Change the colour of the body.
 Change the colour of each element using the highlight class. Use a for loop to do this.
     var highlight = document.querySelectorAll('.highlight')
     highlight.forEach(function(each){each.style.backgroundColor = "#ecb7bf"})
-    
-Change the font family of the h1 to 'monospace'.
 
+Change the font family of the h1 to 'monospace'.
+    var headings = document.querySelectorAll("h1");
+    headings.forEach(function(heading){heading.style.fontFamily = 'monospace'})
+    
 Find a way to select the round icons in the sidebar and then change their colour.
 
 Scroll down to the contact form. Change the placeholder attribute of the name field to "identify yourself".
