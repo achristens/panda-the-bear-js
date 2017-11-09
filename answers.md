@@ -51,8 +51,12 @@ Change the placeholder attribute of the message field to "state your business".
     formMessage.placeholder = "state your business"
 
 Give the name field a "value" attribute of "your nemesis".
+    formName.value = "Your Nemesis"
 
 Change the value attribute of the email field to "koalathebear@gmail.com".
+    var emailForm = document.querySelector("#email")
+    emailForm.value = "koalathebear@gmail.com"
+
 
 Change the value of the submit button on the contact form to "En garde!".
 
