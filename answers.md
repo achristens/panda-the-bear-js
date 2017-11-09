@@ -31,7 +31,9 @@ Change the colour of the body.
     "#2e2e2e"
 
 Change the colour of each element using the highlight class. Use a for loop to do this.
-
+    var highlight = document.querySelectorAll('.highlight')
+    highlight.forEach(function(each){each.style.backgroundColor = "#ecb7bf"})
+    
 Change the font family of the h1 to 'monospace'.
 
 Find a way to select the round icons in the sidebar and then change their colour.
