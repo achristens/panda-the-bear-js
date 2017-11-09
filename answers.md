@@ -65,3 +65,5 @@ We should stop Koala from sending an email to Panda that they might regret! Find
     submitButton.disabled = true;
 
 We should help Panda protect their privacy by erasing their personal details from the sidebar.
+  var sidebarContact = document.querySelectorAll(".bio-info-item")
+  sidebarContact.forEach(function(item){ item.innerText = "" })
